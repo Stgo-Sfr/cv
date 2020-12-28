@@ -1,0 +1,172 @@
+/**********CLASS**********/
+.bot-cloud {
+  position: absolute;
+  left: 20%;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  line-height: 3;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.btn {
+  color: #11999E;
+}
+
+.BUTTON_YKT {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 50px;
+  line-height: 50px;
+  color: #f8f1f1;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 200px;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 0;
+  background-color: #66BFBF;
+  border: solid #66BFBF 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.BUTTON_YKT:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.contact-me {
+  line-height: 2;
+}
+
+.derechos {
+  color: #EAF6F6;
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+  font-size: 1.25rem;
+  margin: 2rem 1rem;
+}
+.footer-link:hover{
+  color: #f8f1f1;
+}
+.foto-pc {
+  width: 20%;
+  float: left;
+  margin-right: 10%;
+}
+
+.foto-chili {
+  width: 20%;
+  float: right;
+  margin-left: 10%;
+}
+
+.middle-container {
+  background: linear-gradient(#a3d2ca, #f8f1f1);
+  padding-bottom: 3rem;
+}
+
+.pfp {
+  height: 40%;
+  width: auto;
+  position: absolute;
+  right: -30%;
+  margin: 1rem 0;
+}
+.profile{
+  width: 50%;
+  margin: auto auto;
+  padding-top: 10%;
+  line-height: 2;
+  position: relative;
+
+}
+.santi{
+  text-shadow: -1px 2px 0 #000;
+
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-container {
+  background: linear-gradient(#f8f1f1, #a3d2ca);
+  position: relative;
+  padding-top: 9.375rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 9.5rem;
+}
+
+/********TAGS*********/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+hr{
+  border-style: dotted;
+  border-width: 0.5rem 0 0 0;
+  margin: 5% 48%;
+  color: #40514E;
+}
+h1 {
+  margin: 3.125rem auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /*1 rem= 1 root em = 100% = 16px*/
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  color: #40514E;
+}
+
+/**********ID**********/
+/*
+margen: caja invisible de margenes
+border: borde de la caja con propiedades explicitas
+padding: separacion entre el contenido y el borde de la caja
+
+positions:
+relative: con respecto a su posicion anterior de html
+absolute: con respecto a su contenedor (div)
+*/
